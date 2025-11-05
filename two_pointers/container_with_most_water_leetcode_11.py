@@ -23,7 +23,7 @@ class Solution:
         left, right = 0, len(height) - 1
 
         max_water = 0
-        while left != right:
+        while left < right:
             water = (min(height[left], height[right])) * (right - left)
             if water > max_water:
                 max_water = water
