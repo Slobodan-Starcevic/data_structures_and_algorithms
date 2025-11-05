@@ -1,7 +1,8 @@
 from typing import List
 
+
 class Solution:
-    def moveZeroes(self, nums: List[int]) -> None:
+    def moveZeroes(self, nums: List[int]):
         """
         Problem analysis:
         - Given an array of integers
@@ -33,10 +34,3 @@ class Solution:
                 nums[left], nums[right] = nums[right], nums[left]
                 left += 1
         return nums
-
-
-
-if __name__ == '__main__':
-    solution = Solution()
-    nums = [2,0,3,4,0,6]
-    print(solution.moveZeroes(nums))
