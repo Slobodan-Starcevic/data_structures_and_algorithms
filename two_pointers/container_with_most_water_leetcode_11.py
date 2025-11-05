@@ -17,8 +17,8 @@ class Solution:
         - Converging two pointer approach
 
         Time & Space Complexity (respectively):
-        - O(n), as we iterate over the length of the array
-        - O(1), as we do not make changes to the original array
+        - O(n), single pass over array length
+        - O(1), because of constant variables and in-place array modification, extra memory does not grow with n
         """
         left, right = 0, len(height) - 1
 

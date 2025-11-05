@@ -25,8 +25,8 @@ class Solution:
         - Allows for one-pass
 
         Time & Space Complexity (respectively):
-        - O(n), as we make one pass through the array
-        - O(1), as we make changes in place, not changing the size of the array or declaring new data structures
+        - O(n), single pass over array length
+        - O(1), because of constant variables and in-place array modification, extra memory does not grow with n
         """
         left = 0
         for right in range(len(nums)):

@@ -22,8 +22,8 @@ class Solution:
         - Slow pointer keeps track of non-val's count
 
         Time & Space Complexity (respectively):
-        - O(n), as we do a single pass
-        - O(1), as we do in-place operations
+        - O(n), single pass over array length
+        - O(1), because of constant variables and in-place array modification, extra memory does not grow with n
         """
         left = 0
         for right in range(0, len(nums)):

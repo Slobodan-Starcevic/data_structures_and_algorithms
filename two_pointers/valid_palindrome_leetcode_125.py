@@ -13,12 +13,12 @@ class Solution:
         - non-alphanumeric characters included
 
         Approach 1:
-        - Converging two pointer
+        - Converging two pointers
         - The moment the pointers are not the same, we return False
 
         Time & Space Complexity (respectively):
-        - O(n), single pass over string
-        - O(1), as the input does not change
+        - O(n), single pass over string length
+        - O(1), because of constant variables and in-place array modification, extra memory does not grow with n
         """
         s = ''.join(filter(str.isalnum, s)).lower()
         left, right = 0, len(s) - 1

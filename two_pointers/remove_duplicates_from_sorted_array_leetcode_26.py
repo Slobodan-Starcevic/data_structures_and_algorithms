@@ -29,7 +29,7 @@ class Solution:
 
         Time & Space Complexity (respectively):
         - O(n), as we are doing one pass through the array
-        - O(1), as we are doing in-place changes, not changing the length of nums
+        - O(1), because of constant variables and in-place array modification, extra memory does not grow with n
         """
         left = 1
         for right in range(1, len(nums)):
