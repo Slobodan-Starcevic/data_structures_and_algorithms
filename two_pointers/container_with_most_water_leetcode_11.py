@@ -17,7 +17,7 @@ class Solution:
         - Converging two pointer approach
 
         Time & Space Complexity (respectively):
-        - O(n), as input size doesn't change
+        - O(n), as we iterate over the length of the array
         - O(1), as we do not make changes to the original array
         """
         left, right = 0, len(height) - 1
