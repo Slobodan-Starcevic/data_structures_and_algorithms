@@ -15,6 +15,3 @@ Time & Space Complexity (respectively):
 -
 
 """
-
-
-if __name__ == '__main__':
