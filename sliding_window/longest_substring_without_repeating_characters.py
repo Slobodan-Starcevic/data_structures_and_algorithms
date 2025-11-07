@@ -3,7 +3,7 @@ class Solution:
         """
         Problem analysis:
         - Given string
-        - Find longest substring of unique characters
+        - Find the longest substring of unique characters
 
         Constraints:
         - Substring can't contain duplicate chars
@@ -17,7 +17,7 @@ class Solution:
         - Dynamic sliding window
         - Right edge checks new chars against currently windowed chars
         - Left edge adjusts substring start
-        - Use a set to keep track windowed chars
+        - Use a set to keep track of windowed chars
 
         Time & Space Complexity (respectively):
         - O(n), one pass over string
