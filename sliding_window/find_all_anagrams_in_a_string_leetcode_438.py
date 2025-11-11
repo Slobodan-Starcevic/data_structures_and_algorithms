@@ -28,7 +28,7 @@ class Solution:
         p_len = len(p)
         indeces = []
 
-        # Check edge cases 2 and 3 mentioned above
+        # Check edge case
         if s_len < p_len:
             return indeces
 
